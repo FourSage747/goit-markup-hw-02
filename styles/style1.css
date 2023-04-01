@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    width: 1519.2px;
+}
+.logo{
+    text-decoration: none;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo span{
+    color: #5A4FCF;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 50px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    border-bottom: 3px solid #E7E9FC;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.address li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.info{
+    font-style: normal;
+}
+.button{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.button li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.but{
+    padding: 15px 25px;
+    border: 0;
+    background-color: #F4F4FD;
+    border-radius: 5px;
+    color: #4D5AE5;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+.but:hover{
+    background-color: #404BBF;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img ul{
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-gap: 50px;
+}
+.img li{
+    list-style-type: none;
+}
+.img ul div{
+    width: 360px;
+    height: 420px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all .5s ease;
+}
+.img ul div:hover{
+    transform: scale(1.1);
+}
+.img ul h3, p{
+    margin-left: 20px;
+}
+.foot{
+    height: 312px;
+    display: flex;
+    align-items: center; 
+    background-color:#202A44 ;
+    margin-top: 100px;
+}
+.foot div{
+    margin-left: 150px;
+    color: white;
+}
+.foot a{
+    color: white;
+}
+.logo1{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo1 span{
+    color: #5A4FCF;
+}
+.foot p{
+    width: 284px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-left: 0;
+}
+.foot ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+.foot li{
+    list-style-type: none;
+}
+.foot h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}

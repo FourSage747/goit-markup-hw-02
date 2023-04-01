@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    width: 1519.2px;
+}
+.logo{
+    text-decoration: none;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo span{
+    color: #5A4FCF;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 50px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.info{
+    font-style: normal;
+}
+
+.address li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.main{
+    height: 600px;
+    width: 100%;
+    color: white;
+    background: url(../imeges/page1/peopleoffice1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main::after{
+    content: "";
+    background: rgba(46, 47, 66, 0.7);
+    position: absolute;
+    opacity: 1;
+    height: 600px;
+    width: 1519.2px;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    background-color: #5A4FCF;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+.button:hover{
+    background-color: #120c69;
+}
+.main h1{
+   font-size: 60px;
+   margin: 0;
+}
+.main div{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.text span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text{
+    display: flex;
+    justify-content: space-around; 
+}
+.text ul{
+    padding: 0;
+}
+.text li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 50px 20px;
+    width: 270px;
+    height: 224px;
+}
+.imeges{
+    margin: 50px 100px;
+}
+.imeges ul{
+    display: flex;
+    justify-content: space-around;
+}
+.imeges li{
+    list-style-type: none;
+}
+.imeges h2{
+    font-size: 37px;
+    text-align: center;
+    margin: 50px 0;
+}
+.imeges img{
+    width: 330px;
+}
+.ourteam{
+    background-color: #f4f4fd;
+    height: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ourteam h2{
+    text-align: center;
+    font-size: 37px;
+}
+.team{
+    display: flex;
+    text-align: center;
+    padding: 0;
+}
+.team ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+.team li{
+    list-style-type: none;
+}
+.photo{
+    width: 264px;
+    height: 428px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.photo:hover{
+    transform: scale(1.1);
+}
+.customers{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers div{
+    width: 1128px;
+    height: 200px;
+}
+.customers h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 72px;
+    margin-top: 0;
+}
+.customers li{
+    list-style-type: none;
+    transition: all .5s ease;
+}
+.customers li:hover{
+    transform: scale(1.1);
+}
+.customers ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+.foot{
+    height: 312px;
+    display: flex;
+    align-items: center; 
+    background-color:#202A44 ;
+}
+.foot div{
+    margin-left: 150px;
+}
+.foot a{
+    color: white;
+}
+.logo1{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo1 span{
+    color: #5A4FCF;
+}
+.foot p{
+    width: 284px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.foot ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+.foot li{
+    list-style-type: none;
+}
+.foot h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
