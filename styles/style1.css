@@ -1,16 +1,29 @@
-body{
+:root{
+    --color-1: #2196F3;
+    --color-2: black;
+    --color-3: #757575;
+    --color-4: #2F303A;
+    --color-5: white;
+    --color-6: #120c69;
+    --color-7: #212121;
+    --color-8: #f4f4fd;
+    --color-9: #F5F4FA;
+    --color-10: #555555;
+}
+body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
-    width: 1519.2px;
 }
+
 .container {
-    width: 1200px; 
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
-.logo{
+
+.logo {
     text-decoration: none;
     margin: 10px 20px;
     font-family: 'Raleway';
@@ -18,184 +31,256 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-}
-.logo span{
-    color: #2196F3;
+    letter-spacing: 0.03em;
 }
 
-.menu{
+.logo span {
+    color: var(--color-1);
+}
+
+.menu {
     list-style-type: none;
     margin: 0;
     padding-left: 50px;
 }
-.menu li{
+
+.menu li {
     display: inline-block;
     margin: 10px 20px;
     font-weight: bold;
 }
-header{
+
+.menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+header {
     border: 1px solid #ECECEC;
 }
-header .container{
+
+header .container {
     display: flex;
     justify-content: space-between;
 }
-header a{
+
+header a {
     text-decoration: none;
-    color: black;
+    color: var(--color-2);
     transition: all 0.3s ease;
 }
-header a:hover{
-    color: #2196F3;
-    fill: #2196F3;
+.st{
+    color: var(--color-1);
 }
-nav{
+header a:hover {
+    color: var(--color-1);
+    fill: var(--color-1);
+}
+
+nav {
     display: flex;
     align-items: center;
 }
-.info{
+
+.info {
     font-style: normal;
     display: flex;
     align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--color-3);
 }
-.info svg{
+
+.info svg {
     width: 20px;
     height: 16px;
     margin-right: 10px;
 }
-.address li{
+
+.address li {
     display: inline-block;
     margin: 0 20px;
 }
-.button{
+
+.button {
     display: flex;
     height: 200px;
     align-items: center;
     justify-content: center;
 }
-.button li{
+
+.button li {
     list-style-type: none;
     display: inline-block;
     margin-right: 10px;
 }
-.but{
+
+.but {
     padding: 5px 25px;
     border: 0;
-    background: #F5F4FA;
+    background: var(--color-9);
     border-radius: 5px;
-    color: black;
-    font-family: 'Roboto';
+    color: var(--color-2);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     transition: all .5s ease;
 }
-.but:hover{
-    background-color: #2196F3;
-    color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+.but:hover {
+    background-color: var(--color-1);
+    color: var(--color-5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.img{
+
+.img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.img ul{
+
+.img ul {
     display: grid;
     grid-template-columns: repeat(3, 360px);
     grid-gap: 50px;
     padding: 0;
 }
-.img li{
-    list-style-type: none;
+
+.img h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--color-7);
 }
-.img ul div{
+
+.img p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--color-3);
+}
+.img a{
+    text-decoration: none;
+}
+.img li {
     width: 360px;
     height: 420px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: all .5s ease;
 }
-.img ul div:hover{
+
+.img li:hover {
     transform: scale(1.1);
 }
-.img ul h3, p{
+
+.img ul h3,p {
     margin-left: 20px;
 }
-footer{
-    background-color:#2F303A;
+
+footer {
+    background-color: var(--color-4);
     margin-top: 100px;
 }
-.foot{
+
+.foot {
     height: 252px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 70px;
     margin-left: 200px;
 }
-.address1 a{
+
+.address1 a {
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: white;
+    color: var(--color-5);
     opacity: 0.5;
+    transition: all 0.3s ease;
 }
-.address1 .a{
+.address1 a:hover{
+    color: var(--color-1);
+}
+.address1 li {
+    margin: 10px 0;
+}
+
+.address1 .a {
     opacity: 1;
 }
-.logo1{
+
+.logo1 {
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: white;
+    color: var(--color-5);
 }
-.logo1 span{
-    color: #2196F3;
+
+.logo1 span {
+    color: var(--color-1);
 }
-.foot ul{
+
+.foot ul {
     padding: 0;
     width: 240px;
     height: 81px;
     margin-top: 20px;
 }
-.foot li{
+
+.foot li {
     list-style-type: none;
 }
-.foot h3{
-    font-family: 'Roboto';
+
+.foot h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: white;
+    color: var(--color-5);
 }
-.div ul{
+
+.div ul {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 10px;
 }
-.div li{
+
+.div li {
     display: flex;
 }
-.div a{
+
+.div a {
     width: 44px;
     height: 44px;
-    fill: #555555;
+    fill: var(--color-10);
     transition: all .3s ease;
 }
-.div a:hover{
-    fill: #2196F3;
+
+.div a:hover {
+    fill: var(--color-1);
 }
-.div svg{
+
+.div svg {
     width: 44px;
     height: 44px;
 }
