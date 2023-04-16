@@ -1,14 +1,14 @@
 :root{
-    --color-1: #2196F3;
-    --color-2: black;
-    --color-3: #757575;
-    --color-4: #2F303A;
-    --color-5: white;
-    --color-6: #120c69;
-    --color-7: #212121;
-    --color-8: #f4f4fd;
-    --color-9: #AFB1B8;
-    --color-10: #555555;
+    --main-color: #2196F3;
+    --text-color: black;
+    --ph-color: #757575;
+    --bg-color: #2F303A;
+    --text-color-2: white;
+    --title-color: #212121;
+    --bg2-color: #f4f4fd;
+    --svg-color: #AFB1B8;
+    --svg2-color: #555555;
+    --but-color: #1277ca;
 }
 body {
     margin: 0;
@@ -30,12 +30,12 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2em;
     letter-spacing: 0.03em;
 }
 
 .logo span {
-    color: var(--color-1);
+    color: var(--main-color);
 }
 
 .menu {
@@ -53,7 +53,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.02em;
 }
 
@@ -64,15 +64,15 @@ header .container {
 
 header a {
     text-decoration: none;
-    color: var(--color-2);
+    color: var(--text-color);
     transition: all 0.3s ease;
 }
 .st{
-    color: var(--color-1);
+    color: var(--main-color);
 }
 header a:hover {
-    color: var(--color-1);
-    fill: var(--color-1);;
+    color: var(--main-color);
+    fill: var(--main-color);;
 }
 
 nav {
@@ -87,9 +87,9 @@ nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.02em;
-    color: var(--color-3);
+    color: var(--ph-color);
 }
 
 .info svg {
@@ -104,13 +104,13 @@ nav {
 }
 
 .main {
-    background-color: var(--color-4);
+    background-color: var(--bg-color);
 }
 
 .main .container {
     height: 600px;
     width: 100%;
-    color: var(--color-5);
+    color: var(--text-color-2);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -121,23 +121,23 @@ nav {
 .button {
     width: 216px;
     height: 50px;
-    background-color: var(--color-1);
+    background-color: var(--main-color);
     border: 0;
     border-radius: 7px;
-    color: var(--color-5);
+    color: var(--text-color-2);
     margin-top: 20px;
     transition: all .5s ease;
-
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8em;
     text-align: center;
     letter-spacing: 0.06em;
 }
 
 .button:hover {
-    background-color: var(--color-6);
+    background-color: var(--but-color);
+    box-shadow: 3px 7px 0 rgba(0, 0, 0, 0.5);
 }
 
 .hidden {
@@ -159,7 +159,7 @@ nav {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36em;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -179,20 +179,19 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-7);
+    color: var(--title-color);
 }
 
 .text p {
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7em;
     letter-spacing: 0.03em;
-    color: var(--color-3);
+    color: var(--ph-color);
 }
 
 .text {
@@ -233,15 +232,15 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16em;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--color-7);
+    color: var(--title-color);
     margin: 50px 0;
 }
 
 .ourteam {
-    background-color: var(--color-8);
+    background-color: var(--bg2-color);
     height: 732px;
     display: flex;
     align-items: center;
@@ -271,7 +270,7 @@ nav {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18em;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -280,10 +279,10 @@ nav {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18em;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--color-3);
+    color: var(--ph-color);
 }
 
 .photo li {
@@ -298,14 +297,14 @@ nav {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: var(--color-5);
+    background-color: var(--text-color-2);
     transition: all 0.3s ease;
-    fill: var(--color-9);
+    fill: var(--svg-color);
 }
 
 .photo a:hover {
-    background-color: var(--color-1);
-    fill: var(--color-5);
+    background-color: var(--main-color);
+    fill: var(--text-color-2);
 }
 
 .team li {
@@ -315,7 +314,7 @@ nav {
 .photo {
     width: 270px;
     height: 368px;
-    background-color: var(--color-5);
+    background-color: var(--text-color-2);
     margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
@@ -343,7 +342,7 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1em;
     text-align: center;
     margin-bottom: 72px;
     margin-top: 0;
@@ -375,14 +374,14 @@ nav {
 }
 
 .customers a {
-    fill: var(--color-9);
+    fill: var(--svg-color);
     width: 170px;
     height: 92px;
     transition: all .5s ease;
 }
 
 .customers a:hover {
-    fill: var(--color-1);
+    fill: var(--main-color);
 }
 
 .customers svg {
@@ -391,7 +390,7 @@ nav {
 }
 
 footer {
-    background-color: var(--color-4);
+    background-color: var(--bg-color);
 }
 
 .foot {
@@ -409,13 +408,14 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    color: var(--color-5);
+    line-height: 1.7em;
+    color: var(--text-color-2);
     opacity: 0.5;
     transition: all 0.3s ease;
 }
 .address1 a:hover{
-    color: var(--color-1);
+    color: var(--main-color);
+    opacity: 1;
 }
 
 .address1 .a {
@@ -428,12 +428,12 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    color: var(--color-5);
+    line-height: 1.19em;
+    color: var(--text-color-2);
 }
 
 .logo1 span {
-    color: var(--color-1);
+    color: var(--main-color);
 }
 
 .foot ul {
@@ -452,10 +452,10 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-5);
+    color: var(--text-color-2);
 }
 
 .div ul {
@@ -472,12 +472,12 @@ footer {
 .div a {
     width: 44px;
     height: 44px;
-    fill: var(--color-10);
+    fill: var(--svg2-color);
     transition: all .3s ease;
 }
 
 .div a:hover {
-    fill: var(--color-1);
+    fill: var(--main-color);
 }
 
 .div svg {

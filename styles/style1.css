@@ -1,14 +1,12 @@
 :root{
-    --color-1: #2196F3;
-    --color-2: black;
-    --color-3: #757575;
-    --color-4: #2F303A;
-    --color-5: white;
-    --color-6: #120c69;
-    --color-7: #212121;
-    --color-8: #f4f4fd;
-    --color-9: #F5F4FA;
-    --color-10: #555555;
+    --main-color: #2196F3;
+    --text-color: black;
+    --ph-color: #757575;
+    --bg-color: #2F303A;
+    --text-color-2: white;
+    --title-color: #212121;
+    --but-color: #F5F4FA;
+    --svg-color: #555555;
 }
 body {
     margin: 0;
@@ -30,12 +28,12 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19em;
     letter-spacing: 0.03em;
 }
 
 .logo span {
-    color: var(--color-1);
+    color: var(--main-color);
 }
 
 .menu {
@@ -54,7 +52,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.02em;
 }
 
@@ -69,15 +67,15 @@ header .container {
 
 header a {
     text-decoration: none;
-    color: var(--color-2);
+    color: var(--text-color);
     transition: all 0.3s ease;
 }
 .st{
-    color: var(--color-1);
+    color: var(--main-color);
 }
 header a:hover {
-    color: var(--color-1);
-    fill: var(--color-1);
+    color: var(--main-color);
+    fill: var(--main-color);
 }
 
 nav {
@@ -92,9 +90,9 @@ nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.02em;
-    color: var(--color-3);
+    color: var(--ph-color);
 }
 
 .info svg {
@@ -124,51 +122,49 @@ nav {
 .but {
     padding: 5px 25px;
     border: 0;
-    background: var(--color-9);
+    background: var(--but-color);
     border-radius: 5px;
-    color: var(--color-2);
+    color: var(--text-color);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6em;
     transition: all .5s ease;
 }
 
 .but:hover {
-    background-color: var(--color-1);
-    color: var(--color-5);
+    background-color: var(--main-color);
+    color: var(--text-color-2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.img ul {
+
+.img {
     display: grid;
     grid-template-columns: repeat(3, 360px);
     grid-gap: 50px;
     padding: 0;
+    margin: auto;
+    width: 1180px;
 }
 
 .img h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2em;
     letter-spacing: 0.06em;
-    color: var(--color-7);
+    color: var(--title-color);
 }
 
 .img p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8em;
     letter-spacing: 0.03em;
-    color: var(--color-3);
+    color: var(--ph-color);
 }
 .img a{
     text-decoration: none;
@@ -185,12 +181,12 @@ nav {
     transform: scale(1.1);
 }
 
-.img ul h3,p {
+.img h3,p {
     margin-left: 20px;
 }
 
 footer {
-    background-color: var(--color-4);
+    background-color: var(--bg-color);
     margin-top: 100px;
 }
 
@@ -207,13 +203,14 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    color: var(--color-5);
+    line-height: 1.7em;
+    color: var(--text-color-2);
     opacity: 0.5;
     transition: all 0.3s ease;
 }
 .address1 a:hover{
-    color: var(--color-1);
+    color: var(--main-color);
+    opacity: 1;
 }
 .address1 li {
     margin: 10px 0;
@@ -229,12 +226,12 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    color: var(--color-5);
+    line-height: 1.19em;
+    color: var(--text-color-2);
 }
 
 .logo1 span {
-    color: var(--color-1);
+    color: var(--main-color);
 }
 
 .foot ul {
@@ -252,10 +249,10 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-5);
+    color: var(--text-color-2);
 }
 
 .div ul {
@@ -272,12 +269,12 @@ footer {
 .div a {
     width: 44px;
     height: 44px;
-    fill: var(--color-10);
+    fill: var(--svg-color);
     transition: all .3s ease;
 }
 
 .div a:hover {
-    fill: var(--color-1);
+    fill: var(--main-color);
 }
 
 .div svg {
