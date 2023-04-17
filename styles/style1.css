@@ -25,10 +25,9 @@ body {
     text-decoration: none;
     margin: 10px 20px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19em;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -49,10 +48,9 @@ body {
 }
 
 .menu a {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -84,13 +82,11 @@ nav {
 }
 
 .info {
-    font-style: normal;
     display: flex;
     align-items: center;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--ph-color);
 }
@@ -125,10 +121,9 @@ nav {
     background: var(--but-color);
     border-radius: 5px;
     color: var(--text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6em;
+    line-height: 1.6;
     transition: all .5s ease;
 }
 
@@ -150,19 +145,17 @@ nav {
 }
 
 .img h3 {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2em;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-color);
 }
 
 .img p {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.8em;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--ph-color);
 }
@@ -203,7 +196,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7em;
+    line-height: 1.7;
     color: var(--text-color-2);
     opacity: 0.5;
     transition: all 0.3s ease;
@@ -223,10 +216,9 @@ footer {
 .logo1 {
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19em;
+    line-height: 1.19;
     color: var(--text-color-2);
 }
 
@@ -246,10 +238,9 @@ footer {
 }
 
 .foot h3 {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-color-2);
